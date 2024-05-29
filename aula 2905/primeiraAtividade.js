@@ -7,6 +7,12 @@ var altura = 1.85
 var usuarioLogado = false
 //booleano
 
+let numeroUm, numeroDois
+
+numeroUm = Number(prompt('Digite o primeiro número: '))
+numeroDois = Number(prompt('Digite o segundo número: '))
+
+alert(numeroUm + numeroDois)
 
 // saida de dados
 alert('Olá mundo... cruel! =~')
