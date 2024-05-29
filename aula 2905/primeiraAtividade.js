@@ -11,8 +11,11 @@ var usuarioLogado = false
 // saida de dados
 alert('Olá mundo... cruel! =~')
 alert(idadePessoa)
-alert('O seu sobrenome é ' + sobrenomePessoa)
 //alert = uma funcão que retorna na tela de usuário (print)
+alert('O seu sobrenome é ' + sobrenomePessoa)
+//
 
+prompt('Digite um número: ')
+//prompt = input
 
 
