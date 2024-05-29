@@ -23,5 +23,10 @@ numeroUm = Number(prompt('Digite o primeiro número: '))
 numeroDois = Number(prompt('Digite o segundo número: '))
 
 alert(numeroUm + numeroDois)
+//number + number = soma
 
+let numero, nome
 
+numero = Number(prompt('Digite o número: '))
+nome = String(prompt('Digite o nome: '))
+//string + number = unir
