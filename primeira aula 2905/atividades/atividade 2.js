@@ -2,18 +2,18 @@
 // Porém, você possui apenas uma nota de R$100 para pagar.
 // Faça um programa no qual sejam digitados os valores dos itens e mostre na tela valor que você deve receber (troco).
 
-//let arroz, batataPalha, sucoDeGarrafa
 
-//arroz = Number(10)
-//batataPalha = Number(15)
-//sucoDeGarrafa = Number(25)
+const precoArroz = parseFloat(prompt("Digite o preço do arroz: "));
+const precoBatataPalha = parseFloat(prompt("Digite o preço da batata palha: "));
+const precoSuco = parseFloat(prompt("Digite o preço do suco de garrafa: "));
 
-//let dinheiro = Number(100)
+const totalCompra = precoArroz + precoBatataPalha + precoSuco;
 
-//var escolha = String(prompt('Escolha os itens que deseja comprar:\n1- Arroz\n2- Batata palha\n3-Suco de garrafa'))
+if (totalCompra <= 100) {
+    const troco = 100 - totalCompra;
+    console.log("O seu troco é de R$" + troco.toFixed(2));
+} else {
+    console.log("Desculpe, mas o valor total da compra excede R$100. Não é possível realizar a compra com essa quantia.");
+}
 
-//switch escolha{
-//    case 1:
-//    troco = (arroz % dinheiro)
-//    alert(troco)
-//}
+
