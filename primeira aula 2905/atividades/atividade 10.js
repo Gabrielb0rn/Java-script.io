@@ -16,3 +16,4 @@ console.log("Total de filhotes ao longo da vida: " + totalFilhotes);
 console.log("Média de filhotes por década: " + mediaFilhotesPorDecada.toFixed(2));
 
 
+//x

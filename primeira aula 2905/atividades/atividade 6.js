@@ -12,3 +12,4 @@ const consumoCombustivelPorKm = distanciaPercorridaKm / combustivelGastoLitros;
 
 alert("O consumo de combustível por quilometragem é de: " + consumoCombustivelPorKm.toFixed(2) + " km/l");
 
+//x

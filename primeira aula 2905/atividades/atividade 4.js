@@ -22,3 +22,4 @@ alert("Média de horas por semana no mês: " + mediaHorasPorSemana.toFixed(2));
 
 
 
+//x

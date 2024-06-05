@@ -16,3 +16,6 @@ const taxaPorPessoa = 20;
 const totalCobrado = valorGas + (taxaPorPessoa * numeroPessoas);
 
 alert("Total cobrado pelo passeio: R$ " + totalCobrado.toFixed(2));
+
+
+//x

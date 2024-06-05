@@ -21,3 +21,4 @@ const totalPagar = totalDiarias + totalCafe;
 alert("Total a pagar: R$ " + totalPagar.toFixed(2));
 
 
+//x

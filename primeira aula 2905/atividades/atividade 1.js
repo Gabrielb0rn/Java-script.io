@@ -38,3 +38,4 @@ do {
 alert('Sua idade: ' + idade + '\nSeu nome: ' + nome + '\nSeu endereço: ' + endereco);
 
 
+//x

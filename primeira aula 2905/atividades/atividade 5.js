@@ -19,3 +19,4 @@ alert("Total dos livros sem desconto: R$ " + totalSemDesconto.toFixed(2) +
 
 
 
+//x
