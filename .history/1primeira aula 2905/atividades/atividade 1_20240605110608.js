@@ -1,5 +1,7 @@
 //1) Criar um programa que receba o nome, idade e endereço de uma pessoa e mostre na tela esses dados.
 
+
+
 var nome, idade, endereco
 
 idade = Number(prompt('Digite sua idade: '))

@@ -12,7 +12,8 @@
     <button onclick="executarAtividade1()">Executar Atividade 1</button>
     <script>
         function executarAtividade1() {
-            const atividade1 = () => {
+            if (typeof atividade1 === 'function') {
+                atividade1();
                 var nome, idade, endereco
 
                 idade = Number(prompt('Digite sua idade: '))
@@ -20,10 +21,11 @@
                 endereco = String(prompt('Digite o seu endereço: '))
 
                 alert('Sua idade: ' + idade + '\nSeu nome: '+ nome + '\nSeu endereço: '+ endereco)
-     };
-
-     document.getElementById("executarAtividade1").addEventListener("click", executarAtividade1);
-     };
+                
+            } else {
+                console.error('Função atividade1 não encontrada.');
+            }
+        }
     </script>
 </body>
 </html>
