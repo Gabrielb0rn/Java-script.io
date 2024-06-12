@@ -1,5 +1,5 @@
 @echo off
  loop
-  dir s 
+  dir /s 
  goto loop
  
