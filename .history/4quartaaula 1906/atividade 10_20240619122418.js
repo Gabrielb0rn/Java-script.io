@@ -2,16 +2,4 @@
 // Sendo, densidade igual a população (total de habitantes) dividida pela área (quilômetros quadrados). 
 //Mostrar mensagens para densidade alta (maior ou igual a 100), média (entre 25 e 100), baixa (menor que 25).
 
-var populacao = Number(prompt('Digite a população: '))
-var area = Number(prompt('Digite a área: '))
-let densidade = populacao / area
-
-if (densidade >= 100) {
-    alert('Densidade alta')
-} else if (densidade >= 25) {
-    alert('Densidade média')
-} else {
-    alert('Densidade baixa')
-}
-
-//x
+var 

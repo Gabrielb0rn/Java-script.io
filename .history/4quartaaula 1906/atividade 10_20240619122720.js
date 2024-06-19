@@ -13,5 +13,3 @@ if (densidade >= 100) {
 } else {
     alert('Densidade baixa')
 }
-
-//x

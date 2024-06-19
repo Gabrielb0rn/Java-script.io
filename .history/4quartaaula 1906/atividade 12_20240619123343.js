@@ -12,5 +12,3 @@ if (cor == "Verde") {
 } else {
     alert("Digite uma cor válida")
 }
-
-//x

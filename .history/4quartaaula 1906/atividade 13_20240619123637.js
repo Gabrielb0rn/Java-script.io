@@ -18,6 +18,4 @@ if (Vida <= 0) {
     alert('Dano moderado, vida estável');
 } else if (Vida <= 100) {
     alert('Dano leve, vida boa!');
-} else {
-    alert('Digite um valor válido');
 }

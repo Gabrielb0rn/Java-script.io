@@ -17,4 +17,3 @@ if (cotacaoDolar > 5) {
     alert('Está barato.');
 }
 
-//x

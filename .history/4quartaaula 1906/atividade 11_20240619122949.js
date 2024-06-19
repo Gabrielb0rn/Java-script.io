@@ -12,9 +12,7 @@ alert('O valor em reais é: ' + conversaoDolar)
 
 
 if (cotacaoDolar > 5) {
-    alert('Está caro.');
+    console.log('esta caro')
 } else {
-    alert('Está barato.');
+    console.log('esta barato')
 }
-
-//x

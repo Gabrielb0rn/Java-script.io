@@ -12,9 +12,8 @@ alert('O valor em reais é: ' + conversaoDolar)
 
 
 if (cotacaoDolar > 5) {
-    alert('Está caro.');
+    alert('Está caro');
 } else {
-    alert('Está barato.');
+    alert('Está barato');
 }
 
-//x

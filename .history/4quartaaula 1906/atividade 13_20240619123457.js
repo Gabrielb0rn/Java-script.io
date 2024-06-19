@@ -6,18 +6,6 @@
 //e se a vida ficar entre 51 a 100, mostrar "Dano leve, vida boa!".
 
 let vida = 100;
-var dano = prompt('Digite o valor do dano: ')
+var dano = ;
 
-Vida = dano - vida
 
-if (Vida <= 0) {
-    alert('Game Over');
-} else if (Vida <= 20) {
-    alert('Dano crítico, quase sem vida');
-} else if (Vida <= 50) {
-    alert('Dano moderado, vida estável');
-} else if (Vida <= 100) {
-    alert('Dano leve, vida boa!');
-} else {
-    alert('Digite um valor válido');
-}

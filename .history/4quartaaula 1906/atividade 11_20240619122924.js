@@ -6,15 +6,10 @@
 var valorDolar = Number(prompt('Digite o valor em dolares: '))
 var cotacaoDolar = Number(prompt('Digite a cotação do dolar: '))
 
-conversaoDolar = valorDolar * cotacaoDolar
-
-alert('O valor em reais é: ' + conversaoDolar)
-
+conversao
 
 if (cotacaoDolar > 5) {
-    alert('Está caro.');
+    console.log('esta caro')
 } else {
-    alert('Está barato.');
+    console.log('esta barato')
 }
-
-//x

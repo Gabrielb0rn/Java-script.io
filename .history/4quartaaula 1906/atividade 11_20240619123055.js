@@ -10,11 +10,9 @@ conversaoDolar = valorDolar * cotacaoDolar
 
 alert('O valor em reais é: ' + conversaoDolar)
 
+    if (cotacaoDolar > 5) {
+        alert('esta caro');
+    } else {
+        alert('esta barato');
+    }
 
-if (cotacaoDolar > 5) {
-    alert('Está caro.');
-} else {
-    alert('Está barato.');
-}
-
-//x

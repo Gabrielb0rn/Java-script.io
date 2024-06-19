@@ -4,14 +4,4 @@
 
 var populacao = Number(prompt('Digite a população: '))
 var area = Number(prompt('Digite a área: '))
-let densidade = populacao / area
-
-if (densidade >= 100) {
-    alert('Densidade alta')
-} else if (densidade >= 25) {
-    alert('Densidade média')
-} else {
-    alert('Densidade baixa')
-}
-
-//x
+let 
