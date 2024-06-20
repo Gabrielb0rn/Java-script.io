@@ -44,8 +44,4 @@ if (velocidadeMediaGeral < 15) {
     alert("Desempenho excelente. Parabéns!");
 }
 
-
-
-
-
 //x
