@@ -12,7 +12,7 @@
   var frutaTres = prompt("Qual a terceira fruta? (CEREJA OU LARANJA)\nResposta: ").toUpperCase();
   var premio = 0;
 
-  // a função toUpperCase() não altera o valor da string original.
+  // a função toUpperCase()
   
   if (frutaUm === "CEREJA" && frutaDois === "CEREJA" && frutaTres === "CEREJA") {
     premio = 100;

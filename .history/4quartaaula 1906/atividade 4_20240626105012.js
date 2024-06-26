@@ -12,7 +12,5 @@ if (anosServico > 5) {
   alert("Salário líquido: R$" + salarioBruto.toFixed(2));
 }
 
-//a função toFixed(2) Retorna '0.00'
-
-
+//a função toFixed(2) retorna
 //x 

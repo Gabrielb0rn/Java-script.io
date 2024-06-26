@@ -16,8 +16,7 @@ for (var i = 1; i <= 4; i++) {
   nomesIntegrantes.push(prompt("Digite o nome do integrante " + i + ": "));
   temposTrechos.push(parseFloat(prompt("Digite o tempo do trecho " + i + " em horas: ")));
 }
-//push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array
-
+/
 var distanciasTrechos = [30, 45, 30, 35];
 var velocidadesTrechos = [];
 var velocidadeMediaGeral = 0;
