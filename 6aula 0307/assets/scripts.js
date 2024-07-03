@@ -1,6 +1,8 @@
-let cordefundo = document.getElementById('cor')
-let elementoInputDois = document.getElementById('idade')
+document.addEventListener('DOMContentLoaded', function() {
+    const colorSelect = document.getElementById('colorSelect');
 
-function mudarCorDeFundo(){
-    
-}
+    colorSelect.addEventListener('change', function() {
+        const selectedColor = colorSelect.value;
+        document.body.style.backgroundColor = selectedColor;
+    });
+});
