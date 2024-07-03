@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: white; /* Cor de fundo inicial */
+}
+
+label, select {
+    margin: 10px;
+}
