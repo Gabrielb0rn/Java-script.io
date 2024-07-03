@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -7,18 +7,35 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <div class="container">
-        <label for="colorSelect">Escolha uma cor:</label>
-        <select id="colorSelect">
-            <option value="white">Branco</option>
-            <option value="red">Vermelho</option>
-            <option value="blue">Azul</option>
-            <option value="green">Verde</option>
-            <option value="yellow">Amarelo</option>
-        </select>
+    <h1>Clique no botão para mudar a cor de fundo</h1>
+    <button onclick="mudarCorDeFundo()">Mudar Cor</button>
 
-        <button id="changeColorButton">Mudar a cor!</button>
-    </div>
+    <script src="assets/scripts.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionar Cor de Fundo</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1>Selecione a cor de fundo</h1>
+    <label for="cor">Escolha uma cor:</label>
+    <select id="cor" onchange="mudarCorDeFundo()">
+        <option value="">--Selecione uma cor--</option>
+        <option value="#FF5733">Vermelho</option>
+        <option value="#33FF57">Verde</option>
+        <option value="#3357FF">Azul</option>
+        <option value="#FFFF33">Amarelo</option>
+        <option value="#FF33FF">Rosa</option>
+        <option value="#33FFFF">Ciano</option>
+    </select>
+
     <script src="assets/scripts.js"></script>
 </body>
 </html>
