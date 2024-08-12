@@ -1,3 +1,0 @@
-# Java-script
-
-<!--x
