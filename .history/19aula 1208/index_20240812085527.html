@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de atividades - aula 19</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Site de Atividades - Aula 19</h1>
+    </header>
+
+    <!-- Seção da Atividade 1: Verificar Paridade -->
+    <section>
+        <h2>Verificar Paridade</h2>
+        <form class="container" id="formParidade">
+            <label for="numeroParidade">Digite um número:</label>
+            <input type="number" id="numeroParidade" name="numeroParidade" required>
+            <button type="submit">Verificar</button>
+        </form>
+        <p id="resultadoParidade"></p>
+    </section>
+
+    <!-- Seção da Atividade 2: Aposentadoria -->
+    <section>
+        <h2>Calculadora de Aposentadoria</h2>
+        <form class="container" id="formAposentadoria">
+            <label for="idadeAposentadoria">Digite sua idade:</label>
+            <input type="number" id="idadeAposentadoria" name="idadeAposentadoria" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="resultadoAposentadoria"></p>
+    </section>
+
+    <!-- Seção da Atividade 3: Lendo Números -->
+    <section>
+        <h2>Lendo Números</h2>
+        <form class="container" id="formLendoNumeros">
+            <label for="numero1">Digite o primeiro número:</label>
+            <input type="number" id="numero1" name="numero1" required>
+            <label for="numero2">Digite o segundo número:</label>
+            <input type="number" id="numero2" name="numero2" required>
+            <button type="submit">Verificar Maior</button>
+        </form>
+        <p id="resultadoLendoNumeros"></p>
+    </section>
+
+    <!-- Seção da Atividade 4: Soma dos Elementos do Array -->
+     <section>
+    <h2>Soma dos Elementos do Array</h2>
+    <input type="text" id="arrayInput" placeholder="Digite 5 números separados por vírgula">
+    <button onclick="calcularSoma()">Calcular Soma</button>
+    <p id="resultadoSoma"></p>
+</section>
+
+<!-- Seção da Atividade 5: Encontrar o Maior Número -->
+<section>
+    <h2>Encontrar o Maior Número</h2>
+    <input type="text" id="maiorArrayInput" placeholder="Digite números separados por vírgula">
+    <button onclick="encontrarMaior()">Encontrar Maior Número</button>
+    <p id="resultadoMaior"></p>
+</section>
+
+
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
