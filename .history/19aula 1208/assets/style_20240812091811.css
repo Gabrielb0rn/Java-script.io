@@ -95,6 +95,6 @@ footer {
 }
 
 .school-logo {
-    width: 100px; 
-    height: auto; 
+    width: 100px;  /* Largura da logo */
+    height: auto;  /* Altura automática mantendo a proporção */
 }

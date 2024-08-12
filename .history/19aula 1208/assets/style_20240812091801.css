@@ -84,17 +84,17 @@ footer {
     color: #fff;  
     text-align: center;
     padding: 20px 0;
-    font-size: 16px;
+    font-size: 16px;  /* Tamanho da fonte */
 }
 
 .footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    gap: 20px;  /* Espaço entre a logo e o texto */
 }
 
 .school-logo {
-    width: 100px; 
-    height: auto; 
+    width: 100px;  /* Largura da logo */
+    height: auto;  /* Altura automática mantendo a proporção */
 }
